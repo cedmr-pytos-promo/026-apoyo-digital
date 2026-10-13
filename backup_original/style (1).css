@@ -1,0 +1,111 @@
+/* ===== Reset y base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header y navegación ===== */
+header {
+  background-color: #1a1a2e;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul a:hover {
+  color: #e94560;
+}
+
+/* ===== Sección de bienvenida ===== */
+.bienvenida {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.bienvenida h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.bienvenida p {
+  font-size: 1.2rem;
+  color: #c0c0c0;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e94560;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #c73652;
+}
+
+/* ===== Secciones principales ===== */
+.seccion {
+  padding: 5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.seccion p {
+  font-size: 1.05rem;
+  color: #555;
+}
+
+/* Sección alternada con fondo diferente */
+.seccion-alt {
+  background-color: #f4f4f4;
+  max-width: 100%;
+  padding: 5rem 2rem;
+}
+
+.seccion-alt h2 {
+  color: #16213e;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #1a1a2e;
+  color: #aaa;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
